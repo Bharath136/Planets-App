@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.slider-container {
+  padding: 20px 240px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .slider-container {
+    padding: 20px;
+  }
+}
+
+.planet-heading {
+  color: #05acff;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
